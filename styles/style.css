@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.logo {
+    width: 150px;
+    padding: 0px;
+}
+
+nav {
+    background-image: url(/img/fondo-madera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+nav li a {
+    color: #016129;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+.inspirate a:hover {
+    background: #BC5455;
+    color: white;
+}
+
+@media screen and (min-width: 480px) {
+    nav ul {
+        display: flex;
+    }
+}
+
+.inspirate {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
+    margin: auto;
+}
+
+.background-nav {
+    background-image: url(/img/fondo-madera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 200px;
+}
+
+.cinta {
+    background-color: #EA6F5E;
+    height: 200px;
+    top: 1px;
+    z-index: 1;
+}
+
+.fondo {
+    position: relative;
+}
+
+.fondo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 450px;
+}
+
+.container-bg-title {
+    text-align: end;
+    padding-top: 5vh;
+    margin-right:15vh;
+}
+
+.bg-title {
+    font-size: 90px;
+    font-weight: bolder;
+    color: #005022;
+
+}
+
+.container-blog-title {
+    top: 12vh;
+    width: 320px;
+    padding: 20px;
+    background-color: #016129;
+}
+
+.blog-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container-blog-text {
+    padding: 20px;
+    width: 320px;
+    height: 220px;
+    background-color: #016129;
+}
+
+.entrada-blog {
+    position: absolute;
+    margin-top: 12vh;
+    right: 15vh;
+    color: #F5E8D6;
+}
+
+.entrada-blog h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.entrada-blog p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.entrada-blog .fcc-btn {
+    display: inline-block;
+    background-color: #3F823F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.entrada-blog .fcc-btn:hover {
+    background-color: #c55c5c;
+}
+
+.buscador, .carrito {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
+    margin: auto;
+}
+
+.pie {
+    padding: 20px;
+    background-image: url(/img/fondo-madera.jpg);
+    background-size: 500px;
+    margin-top: 200px;
+    color: #094D28;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.pie .redes-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #094D28;
+    transition: all 0.5s ease;
+}
+
+.pie-col .redes-links a:hover {
+    color: #094D28;
+    background-color: #ffffff;
+}

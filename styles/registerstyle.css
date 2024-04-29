@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-image: url(/img/fondo-madera.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-optical-sizing: auto;
+    }
+
+nav li a {
+    color: #016129;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    }
+
+.inspirate a:hover {
+      background: #BC5455;
+      color: white;
+      }
+
+@media screen and (min-width: 480px) {
+    nav ul {
+      display: flex;
+    }
+  }
+
+.background-prod{
+  background-image: url(/img/Banner0.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 400px;
+}
+
+.background-insp{
+  background-image: url(/img/Banner-recetas1_upscayl_2x_realesrgan-x4fast.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 400px;
+}
+
+.background-clientes{
+  background-image: url(/img/Unilever3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 600px;
+    padding: 20px;
+}
+
+.logo{
+    width: 150px;
+    padding: 0px;
+    }
+
+h1,h2,.art,iframe, h4{
+    padding: 20px;
+}
+
+.inspirate{
+    text-decoration:none;
+    font-size: 20px;
+    padding: 0px;
+    margin: auto;
+    }
+    
+.buscador, .carrito{
+    text-decoration:none;
+    font-size: 20px;
+    padding: 0px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+h1,h2,.qstxt, h4{
+  color:#008337;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 1em;
+  border: #094D28;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  position: relative;
+  transition: all .2s ease-in-out;
+  background-color: #99999915;
+  padding: 20px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 5px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+label{
+  margin: 10px 0;
+}
+
+
+label, p {
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  
+}
+
+.datosp, .datosl {
+  margin: 0 0 20px 0;
+    padding: 12px 5%;
+    border: 0;
+    border-radius: 4px;
+    background-color:#99999915;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    color: #2C3E50;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-control, textarea {
+    margin: 0 0 20px 0;
+    padding: 12px 5%;
+    width: 90%;
+    border: 0;
+    border-radius: 4px;
+    background-color:#99999915;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    color: #2C3E50;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-card{
+  width: 600px; 
+  margin: 20px auto;
+}
+
+
+::placeholder{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.title{
+  font-size: 3.444rem;
+  color:#1d3247;
+  text-align: center;
+  
+}
+
+.btn-success{
+  background-color:#2ECC71;
+  padding: auto;
+  margin: auto;
+  position: relative;
+  color: #FFF;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+
+.btn-danger{
+  background-color:#BC5455;
+  padding: 10px;
+  margin: 20px;
+  font-size: 25px;
+  position: relative;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  box-shadow: 0 5px 22px 0 rgba(0,0,0,.25); 
+  transition: all .2s ease-in-out;
+
+}
+
+button {
+    margin-left: 0.5em;
+  }
+
+.pie{
+  padding: 20px;
+  background-image: url(/img/fondo-madera.jpg);
+  background-size: 500px;
+  margin-top: 200px;
+  color: #094D28;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  }
+
+.pie .redes-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  color: #094D28;
+  transition: all 0.5s ease;
+}
+.pie-col .redes-links a:hover{
+  color: #094D28;
+  background-color: #ffffff;
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
